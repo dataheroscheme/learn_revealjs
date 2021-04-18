@@ -1,29 +1,26 @@
 ---
-title: "Untitled"
-output: revealjs::revealjs_presentation
+title: "This is a cool slide!"
+output:
+  revealjs::revealjs_presentation:
+    incremental: true
+    theme: black
+    highlight: tango
+    center: false
+    transition: zoom
+    self_contained: false
+    reveal_plugins: ["notes", "search"]
 ---
 
-## R Markdown
+# I want a Horizontal move! {data-background="https://media.giphy.com/media/l46CtSZN75aR6meE8/source.gif"}
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+How do we do it?
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+## I want a Vertical move!
 
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Code and Output
-
-```{r}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r, echo=FALSE}
+```{r echo=FALSE}
 plot(cars)
 ```
 
+## I want a Vertical move 2!
+
+# I finish my move! 
